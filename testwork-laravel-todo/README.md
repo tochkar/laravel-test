@@ -1,7 +1,7 @@
 # Laravel Todo List API
 
 
-A simple API to manage todo lists built with Laravel.
+
 
 ## Installation
 
@@ -16,7 +16,7 @@ A simple API to manage todo lists built with Laravel.
     composer install
     ```
 
-3. Generate application key (if not already generated)
+3. Generate application key 
     ```sh
     php artisan key:generate
     ```
@@ -26,7 +26,7 @@ A simple API to manage todo lists built with Laravel.
     php artisan migrate
     ```
 
-5. Run the dev server (the output will give the address):
+5. Run the dev server:
     ```sh
     php artisan serve
     ```
@@ -37,9 +37,4 @@ A simple API to manage todo lists built with Laravel.
 php artisan test
 ```
 
-## Pending
 
-- [ ] Add basic validation in create, update task API call
-- [ ] Take config for task status
-- [ ] Global scope
-- [ ] Split methods from `TaskController`
